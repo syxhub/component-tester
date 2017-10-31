@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './subpages/dashboard/dashboard.component';
 import { MapComponent } from './subpages/support/map/map.component';
 import { SupportComponent } from './subpages/support/support.component';
+import { SettingsComponent } from './subpages/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SupportComponent } from './subpages/support/support.component';
     DashboardComponent,
     SupportComponent,
     MapComponent,
-    SignUpComponent
+    SignUpComponent,
+    SettingsComponent
   ],
   imports: [
     AppRoutingModule,
