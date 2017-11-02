@@ -1,3 +1,4 @@
+import { NgDraggableModule } from 'angular-draggable';
 import { AgmCoreModule } from '@agm/core';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -39,6 +40,7 @@ import { CarouselComponent } from './layout/carousel/carousel.component';
     BrowserAnimationsModule,
     BrowserModule,
     DragulaModule,
+    NgDraggableModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyANXyIWCMat-4mtRQKFoxkwB4kfmhhRwXU'
