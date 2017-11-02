@@ -1,10 +1,10 @@
-<table class="table table-dark">
+<table class="table table-dark card bg-dark">
     <thead class="thead-dark">
         <tr>
             <th class="text-center">Tasks</th>
         </tr>
         <tr *ngFor="let task of tasks">
-            <app-task [task]="task"></app-task>
+            <app-task [task]="task" [dragula]="'first-bag'"></app-task>
         </tr>
     </thead>
 </table>

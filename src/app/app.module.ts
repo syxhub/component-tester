@@ -16,6 +16,8 @@ import { DashboardComponent } from './subpages/dashboard/dashboard.component';
 import { MapComponent } from './subpages/support/map/map.component';
 import { SupportComponent } from './subpages/support/support.component';
 import { SettingsComponent } from './subpages/settings/settings.component';
+import { DragulaModule } from 'ng2-dragula';
+import { CarouselComponent } from './layout/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,14 @@ import { SettingsComponent } from './subpages/settings/settings.component';
     SupportComponent,
     MapComponent,
     SignUpComponent,
-    SettingsComponent
+    SettingsComponent,
+    CarouselComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
     BrowserModule,
+    DragulaModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyANXyIWCMat-4mtRQKFoxkwB4kfmhhRwXU'
