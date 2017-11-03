@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Feature } from './../../../models/feature.model';
 
 @Injectable()
-export class FeatureComponentsService {
+export class DashboardComponentsService {
 
     features: Array<Feature>;
 
