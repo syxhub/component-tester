@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { SignUpComponent } from './account/sign-up/sign-up.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './account/login/login.component';
 import { DashboardComponent } from './subpages/dashboard/dashboard.component';
 import { SettingsComponent } from './subpages/settings/settings.component';
 import { SupportComponent } from './subpages/support/support.component';

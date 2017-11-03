@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 import { CarouselComponent } from './layout/carousel/carousel.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './account/login/login.component';
 import { DashboardComponent } from './subpages/dashboard/dashboard.component';
 import { TaskContainerComponent } from './subpages/dashboard/feature-components/task-container/task-container.component';
 import { TaskComponent } from './subpages/dashboard/feature-components/task-container/task/task.component';
